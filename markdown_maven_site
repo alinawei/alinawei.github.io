@@ -186,7 +186,7 @@ This time, open the browser, input "http://localhost:9000", it shows:
 Now, change your markdown file and save, refresh the above address, what you find? Yes, you see the content you just altered.
 ###Step 7:automatic deployment in CI#
     $ cd <my dir>
-    $ git clone ssh://@gerrit.sh.cn.ao.ericsson.se:29418/EMBMS/bmc-backend
+    $ git clone ssh://@gerrit...
 
 Add your job into the project, and push it into the remote repository.
 
@@ -222,11 +222,16 @@ In jenkins, create a project for maven-doc and make cofiguration as the followin
 - operation after construction:<br>
  - >Files to deploy:**/*
  - >Basedir:${WORKSPACE}/bmc/target/site/
- - >Remote directory:/project/ecds/ccenv/www/htdocs/repo/doc/maven_site/BMC/15b/
+ - >Remote directory:/project/ecds/ccenv/www/htdocs/repo/doc/maven_site/BMC/15b/</br>
 
 Then build the project, till now, the whole job is finished. 
-----
-*edit information:</br> editor:Huihui Wei</br> Instructor:Xiaojiang Wu</br> 2014-07-28*
+
+
+-----
+*<br>edit information:</br> 
+<br>editor:Huihui Wei</br> 
+<br>Instructor:Xiaojiang Wu</br> 
+2014-07-28*
 
 
 
